@@ -19,7 +19,9 @@ builder.Services.AddAuthorization();
 //    options.AddPolicy("AdminOnly", policy => policy.RequireClaim("Role", "Admin"));
 //    options.AddPolicy("UserOnly", policy => policy.RequireClaim("Role", "User"));
 //});
-var app = builder.Build();
+var app = builder.Build(); 
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
